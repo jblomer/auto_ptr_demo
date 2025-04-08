@@ -24,14 +24,14 @@ struct deprecated_auto_ptr
 struct Track {
    int fFoo;
 
-   ClassDefNV(Track, 2)
+   ClassDefNV(Track, 2);
 };
 
 struct Event {
    std::unique_ptr<Track> fPtr;
    float fBar = 137.0;
 
-   ClassDefNV(Event, 3)
+   ClassDefNV(Event, 3);
 };
 
 #endif // _EVENT_H
